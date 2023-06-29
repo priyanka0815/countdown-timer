@@ -2,13 +2,14 @@
 
 body{
     text-align: center;
-    background-color: #131313;
+    background-color: rgb(92, 160, 248);
     font-family: 'Poppins', sans-serif;
 }
 
 h1{
-    color: #f5f5f5;
+    color: #025f11;
     font-size: 40px;
+    text-transform: uppercase;
 }
 
 table{
@@ -16,12 +17,13 @@ table{
 }
 
 th{
-    color: #ffffff;
+    color: #292626;
+    font-weight: bold;
 }
 
 input{
     font-size: 20px;
-    padding: 5px;
+    padding: 5px;  
     border-radius: 5px;
 }
 
@@ -30,25 +32,35 @@ button{
     margin: 20px 10px;
     padding: 10px;
     font-size: 20px;
-    background-color: #FFFFFF;
+    background-color: #436616;
     border-radius: 5px;
     font-weight: 600;
+}
+button:hover{
+    cursor: pointer;
+    color: yellowgreen;
 }
 
 .countdown{
     display: flex;
     justify-content: center;
+    font-weight: bold;
 }
 
 .heading{
-    color: #f5f5f5;
+    color: #292626;
     font-size: 18px;
 }
 
 .time{
-    background-color: #090909;
-    color: #ffffff;
+    background-color: rgb(44, 1, 1);
+    color: #ec7272;
     font-size: 100px;
     width: 150px;
     margin: 0 12px;
+    border-radius: 10px;
+}
+.time:hover{
+    cursor: pointer;
+    color: yellowgreen;
 }
